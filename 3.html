@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="autor" content="Rosu Gabriel" />
+    <title>Christopher Nolan</title>
+    <link rel="icon" type="image/x-icon" href="nolan.ico" />
+    <link rel="stylesheet" href="site.css" type="text/css" />
+  </head>
+
+  <body class="inter">
+    <header>
+      <div class="topnav">
+        <p class="titlu">Christopher Nolan</p>
+        <div>
+          <a href="home.html">Home</a>
+          <a href="1.html">Batman</a>
+          <a href="2.html">TENET</a>
+          <a href="3.html" class="active">Interstellar</a>
+          <a href="4.html">Dunkirk</a>
+          <a href="5.html">Inception</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <p class="content">
+        A team of explorers travel through a wormhole in space in an attempt to
+        ensure humanity's survival.
+        <a href="https://www.imdb.com/title/tt0816692/?ref_=nv_sr_srsg_1"
+          >IMDb page</a
+        >
+      </p>
+      <div class="container">
+        <iframe
+          src="https://www.youtube.com/embed/zSWdZVtXT7E"
+          allowfullscreen
+          class="video"
+        >
+        </iframe>
+      </div>
+      <div class="contspec">
+        <div class="specs">
+          <img
+            src="images/interlogo.jpg"
+            alt="interstellar minimal poster"
+            class="poster"
+          />
+        </div>
+        <ul class="content">
+          <li>Release date: November 7, 2014</li>
+          <li>Box office: 701.7 million USD</li>
+          <li>Budget: $165 million</li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <p id="tel">+40853904758</p>
+        <p id="mail">fanfilme@nolan.com</p>
+      </div>
+      <div id="formular">
+        Filmul preferat: &nbsp;
+        <input type="text" id="myInput" />
+        <button onclick="getValue(event)">Submit</button>
+      </div>
+    </footer>
+    <script src="scrip.js"></script>
+    <script src="inter.js"></script>
+  </body>
+</html>
